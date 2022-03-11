@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://s3-us-west-2.amazonaws.com/typeset-prod-media-server/5c516622-a9cc-47a6-b3cc-ca754d2d4253image2.png");
+    display:flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: roboto, arial, helvetica, sans-serif;
+}
+
+
+.container
+{
+    width: 60%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    padding:12px;
+    margin:0 auto;
+    gap:30px;
+    border:1.5px solid lightcyan;
+}
+
+.container h1{
+color:white;
+letter-spacing:7px;
+}
+
+#country{
+    width:auto;
+    height:auto;
+    font-weight: bold;
+}
+
+#confirmed,
+#recovered,
+#deaths,
+#active
+{
+    font-size:large;
+    color:white;
+    font-weight: bold;
+    
+}
